@@ -9,12 +9,22 @@
     gap:30px;
 }
 
+.choose-btn:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease-out;
+    opacity: 100%;
+    position: relative;
+    z-index: 1;
+}
+
 .choose-btn {
     border: 2px solid black;
     border-radius: 20px;
     display: grid;
     grid-template-columns: 10vw 1vw 20vw;
     grid-template-rows: 18vh 18vh;
+    background-color: white;
+    opacity: 70%;
 }
 
 .btn-icon {
