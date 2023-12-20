@@ -1,0 +1,47 @@
+.choose-btn-container {
+    margin-top: 8vh;
+    margin-left: 10vw;
+    display: grid;
+    width: 80vw;
+    height: 100vh;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: 30vh 30vh;
+    gap:30px;
+}
+
+.choose-btn {
+    border: 2px solid black;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 10vw 1vw 20vw;
+    grid-template-rows: 18vh 18vh;
+}
+
+.btn-icon {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 20vh;
+    margin:0px;
+    margin-left: 2vw;
+}
+
+.btn-title {
+    grid-column-end: 4;
+    grid-column-end:-1;
+    margin : auto;
+    margin-top : 10px;
+    margin-left: 3vh;
+    font-size: 45px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.btn-description {
+    width: 29.8vw;
+    height: 18vh;
+    border-top : 2px solid black;
+}
+
+
+
+
