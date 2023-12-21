@@ -11,50 +11,48 @@
 </head>
 <body>
     <header>
-        <h1>점메추</h1>
+        <h1 class = main-title>점메추</h1>
     </header>
     <content>
         <div class = "choose-btn-container">
-            <div class = "choose-btn">
-                <img class = "btn-icon" src = "img/video-player_3731592.png">
+            <div class = "choose-btn" onclick="location.href='./HTML/deliever.html'">
+                <img class = "btn-icon" src = "img/free-icon-fast-delivery-5637217.png">
                 <div class = "btn-title">배달 식당 찾기</div>
                 <div class = "btn-description">
-                    배달 설명
+                    입력한 위치 기준 배달 가능한 음식점을 찾습니다.
                 </div>
             </div>
             <div class = "choose-btn">
-                <img class = "btn-icon" src = "img/video-player_3731592.png">
+                <img class = "btn-icon package" src = "img/free-icon-plastic-bag-3576202.png">
                 <div class = "btn-title">포장 식당 찾기</div>  
                 <div class = "btn-description">
-                   포장 설명
+                   본인이 설정한 거리내의 포장 가능한 식당을 찾습니다. 기본(500m)
                 </div>
             </div>
             <div class = "choose-btn">
-                <img class = "btn-icon" src = "img/video-player_3731592.png">
+                <img class = "btn-icon random-food" src = "img/free-icon-food-serving-2336688.png">
                 <div class = "btn-title">랜덤 음식 추천</div>
                 <div class = "btn-description">
-                    랜덤 음식 추천 설명
+                    다양한 음식들 중 랜덤한 1가지 음식을 추천합니다.
                 </div>
             </div>
             <div class = "choose-btn">
                 <img class = "btn-icon" src = "img/video-player_3731592.png">
                 <div class = "btn-title">유튜브 레시피</div>
                 <div class = "btn-description">
-                    유튜브 레시피 추천
+                    유튜브에 레시피가 올라와 있는 다양한 음식들 중 하나를 추천합니다.
                 </div>
             </div>
         </div>
     </content>
     <nav>
       <div class = "nav-container">
-        <div>메뉴</div>
-        <div>할인 중!</div>
+        <div class = "nav-end nav-titlte">메뉴</div>
+        <div class = "nav-btn">할인 중!</div>
         <div class = "category">
-            <div class = "category-title">카테고리</div>
-            <div>양식</div>
-            <div>한식</div>
-            <div>분식</div>
+            <div class = "category-title nav-btn">카테고리</div>
         </div>
+        <div class = "nav-btn menu-situ">상황별 메뉴</div>
       </div>  
     </nav>
 </body>

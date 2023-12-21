@@ -30,11 +30,13 @@ content {
 }
 
 nav {
+    overflow: hidden;
+    background-color: #E4E3D7;
     position: absolute;
     top: 15vh;
     left: 2vw;
     width:6vw;
-    height: 30vh;
+    height: 11vh;
     border: 2px solid black;
     border-radius: 10px;
 }
