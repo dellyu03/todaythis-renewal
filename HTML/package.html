@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "../CSS/package.css">
     <title>포장 추천 페이지</title>
 </head>
 <body>
     <header>
         <h1>포장 추천 페이지입니다</h1>
     </header>
-    <div id="map" style="width:500px;height:400px;"></div>
+    <content>
+        <div id = "input-carrier">
+            <div id = "input-title">장소 입력 : </div>
+            <input type = "text" id = "place">
+        </div>
+        <div id="map"></div>
+    </content>
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4167d0119ca928e42ca3b55ea5d2dc9a"></script>
     <script src = "../kakaomap.js"></script>
 </body>
